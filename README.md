@@ -29,6 +29,7 @@ This was my **first Rust project ever** and my **first finished game ever**. I h
 
 ## Project structure
 
+```
 src/
 ├── main.rs — App setup, plugin registration
 ├── state.rs — Game state enum, volume settings
@@ -40,6 +41,7 @@ src/
 ├── crosshair.rs — Mouse aim crosshair
 ├── ui.rs — Compass, stability bar, checkpoints, HUD
 └── screens.rs — Intro/story/pause/win/game-over/score screens
+```
 
 ## Running locally
 
