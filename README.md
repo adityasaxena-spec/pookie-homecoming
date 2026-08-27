@@ -2,7 +2,7 @@
 
 A 2D space shooter built solo for the "Do You Wanna Jam?! 2026" game jam (theme: **Unstable**), made in **Rust** using the **Bevy** game engine.
 
-**[Play it on itch.io →](YOUR_ITCH_IO_LINK)**
+**[Play it on itch.io →](https://myselfaditya23.itch.io/pookie-homecoming)**
 
 ## About
 
@@ -26,11 +26,9 @@ This was my **first Rust project ever** and my **first finished game ever**. I h
 - **Bevy** (game engine, ECS architecture)
 - `rand` crate for randomization (crit chance, spawn positions, etc.)
 - `winresource` for the Windows executable icon
-- `webbrowser` for the in-game itch.io link button
 
 ## Project structure
 
-"""
 src/
 ├── main.rs — App setup, plugin registration
 ├── state.rs — Game state enum, volume settings
@@ -42,8 +40,6 @@ src/
 ├── crosshair.rs — Mouse aim crosshair
 ├── ui.rs — Compass, stability bar, checkpoints, HUD
 └── screens.rs — Intro/story/pause/win/game-over/score screens
-"""
-
 
 ## Running locally
 
